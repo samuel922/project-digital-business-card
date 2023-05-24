@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #79E0EE;
+}
+
+.app--container {
+  background-color: #fff;
+  width: 427px;
+  height: 900px;
+  margin: 30px auto;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+/* Header styles */
+
+.main--header {
+  width: auto;
+  height: 30%;
+}
+.profile-picture {
+  width: 100%;
+  height: 100%;
+}
+
+/* Main styles */
+.main--content {
+  font-family: 'Roboto', sans-serif;
+  background: #27374D;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.main--contnent__header h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.main--contnent__header h4 {
+  font-size: 1.2rem;
+  color: #FFB84C;
+  margin: 1rem 0;
+}
+
+.main--contnent__header small {
+  margin: .4rem;
+}
+
+.main--contnent__header small a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main--content__contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main--content__btn {
+  width: 130px;
+  height: 40px;
+  border: none;
+  padding: 2px;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+.main--content__btn a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.main--content__btn a img {
+  height: 25px;
+}
+
+.main--content__mail-button a {
+  color: #000;
+}
+
+.main--content__linkedin-button {
+  background-color: #009FBD;
+}
+
+.main--content__linkedin-button a {
+  color: #fff;
+}
+
+.about--interest__container {
+  max-width: 340px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+/* footer styles */
+.main--footer {
+  background-color: #0B2447;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.main--footer img {
+  height: 40px;
+  display: inline-block;
+  margin-right: 1rem;
+}
